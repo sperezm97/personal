@@ -16,7 +16,7 @@ const index = () => {
   return (
     <Container>
       <h1>Sebastian Perez</h1>
-      <h3> hi, i'm mobile developer, so do not surprise by this website</h3>
+      <h3> hi, i'm mobile developer, so do not surprise for this website</h3>
     </Container>
   )
 }
