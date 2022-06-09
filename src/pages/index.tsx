@@ -5,19 +5,18 @@ import styled from 'styled-components'
 const Container = styled.div`
   display: flex;
   flex: 1;
-  justify-content: center
-  align-items: center
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `
 
-const Title = styled.h1`
-  color: #000000;
 
-`
 
 const index = () => {
   return (
     <Container>
-      <Title>Sebastian Perez</Title>
+      <h1>Sebastian Perez</h1>
+      <h3> hi, i'm mobile developer, so do not surprise by this website</h3>
     </Container>
   )
 }
