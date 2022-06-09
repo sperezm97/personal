@@ -1,0 +1,32 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "personal",
+  "author": "Sebastian Perez",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.15.2",
+    "gatsby-plugin-styled-components": "^5.16.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.2"
+  }
+}
